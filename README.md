@@ -1,1 +1,0 @@
-# Joungho Seo Website

@@ -1,103 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<link href="./css/main.css" rel="stylesheet" type="text/css">
-	<meta charset="utf-8" />
-		<title>
-			Joungho Seo Homepage
-		</title>
-</head>
-	<body>
-		<div id="navcontainer">
-			<ul id="navlist">
-				<li><a href="#Resume">Resume</a></li>
-				<li><a href="#Education">Education</a></li>
-				<li><a href="#Personal">Personal</a></li>
-			</ul>
-		</div>
-	<img src="./Media/profile.jpeg" alt="my picture">
-	<h2>
-		Joungho Seo<br>
-		3rd Year Web and Mobile Major<br>
-		Curious programmer, always trying to learn more tools to tackle a problem
-	</h2>
-	<h3 id="Resume">
-	Resume
-	</h3>
-	<p>Work Experience</p><hr>
-	Coffee Day (Jan 2016-July 2016)<br>
-		<i>Barista</i> <br>
-	Worked with a team of barista, provided customer service and taught new trainees<br>
-	
-	<p>Technical Skills:<p> <hr>
-	<p>Proficient:</p>
-	<ul>
-		<li>C++, CSS, Git, HTML, Java, MySQL, Python</li>
-	</ul>
-	<p>Software:</p>
-	<ul>
-		<li>Github, PyCharm, IntelliJ, Visual Studio, Adobe Photoshop, Blender, Autodesk Sketch Book, Arc GIS, Microsoft Office</li>
-	</ul>
-	<p>Spoken Languages:</p>
-	<ul>
-		<li>Native Proficiency in English, Indonesian and Korean</li>
-	</ul>
-	<p>Projects:</p>
-	<ul>
-		<li>Online ELO System Website(Present)</li>
-		<ul>
-			<li>Created a class in Python for players registered in www.challonge.com</li>
-			<li>Downloads information using Challonge API</li>
-			<li>Calculates the ELO system using current Match-Making Rating</li>
-			<li>Uses HTML with Flask web framework to implement the backend of the website </li>
-		</ul>
-	</ul>
-	<ul>
-		<li>GPS Device with Raspbery Pi</li>
-		<ul>
-			<li>Programmed to track the location of the Raspberry Pi using hardware Interrupts</li>
-			<li>Geolocates using ipstack API</li>
-			<li>Sends location of the Raspberry Pi every chosen interval</li>
-		</ul>
-	</ul>
-	<a href="./Media/JounghoSeo_Resume.pdf">PDF format of Resume is available here</a>
-	<h4 id="Education">
-	Education
-	</h4>
-	
-	Monroe Community College (May 2019)<br>
-	<ul>
-	<li>A.S in Computer Science</li>
-	</ul>
-	Activities:
-	<ul>
-	<li> Joined ArcGIS conference and helped map damaged areas in 3rd world country using ArcGIS</li>
-	</ul>
-	<hr>
-	Rochester Institute of Technology (Expected Graduation May 2021)<br>
-	<ul>
-	<li>
-	B.S in Web and Mobile Computing
-	</li>
-	</ul>
-	<h5 id="Personal">
-	Personal
-	</h5>
-	<p>Interest:</p>
-	<ul>
-		<li>Programming</li>
-		<li>Drawing</li>
-		<li>Arcade Hobbyist</li>		
-		<li>Table Tennis</li>
-	</ul>
-	<p>Personal Project:</p>
-		<ul>
-		<li>Optimizing Arcade Hardware:</li>
-			<ul>
-			<li>Redesigned an actuator using Blender</li>
-			<li>3D printed the design using MCC’s 3D printer</li>
-			<li>Experimented with various material and printing technique</li>
-		</ul>
-		</ul>
-	</body>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="./assets/SeoProfile.png" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-white">
+            <h2>Joungho Seo</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-info fa-fw w3-margin-right w3-large w3-text-teal"></i>Born in Korea, Raised in Indonesia, Studying in the USA</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Rochester, NY</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>joungho21@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>917-946-7995</p>
+		  <p><i class="fa fa-github-square fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://github.com/joungho21">github.com/joungho21</a></p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Technologies</b></p>
+          <p><ul>
+		  <li>C</li>
+		  <li>C++</li>
+		  <li>HTML & CSS</li>
+		  <li>Git</li>
+		  <li>JUnit</li>
+		  <li>Java</li>
+		  <li>JavaScript</li>
+		  <li>PHP</li>
+		  <li>Python</li>
+		  <li>SQL</li>
+         </ul>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Indonesian</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:85%"></div>
+          </div>
+          <p>Korean</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:50%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-institution fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        
+		<div class="w3-container">
+          <h5 class="w3-opacity"><b>Rochester Institute of Technology</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2019  - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <ul><li>Expected to Graduate December 2021</li>
+		  <li>Bachelor of Science, Web and Mobile	</li>
+
+<li>Dean’s List Fall 2019</li></ul>
+
+        </div>
+		<div class="w3-container">
+          <h5 class="w3-opacity"><b>Monroe Community College</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>January 2017  - May 2019</h6>
+          <ul><li>Associate of Science, Computer Science</li></ul>
+
+        </div>
+        
+      </div>
+	  <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        
+		<div class="w3-container">
+          <h5 class="w3-opacity"><b>Teaching Assistant</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2020 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <ul><li>Conducted academic tutoring in Java course (algorithms, data structure, and multi-threading)</li>
+<li>Provided assistance to students during lab and tutoring session</li>
+<li>Made grading scripts and automated the grading process</li></ul>
+        </div>
+        
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-tasks fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Automating The Homework Grading Process</b></h5>
+          <p><ul><li>Wrote a JUnit test for homework assignments</li>
+		  <li>Used the test to automate the grading process</li></ul>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Database Application</b></h5>
+          <p><ul><li>Used Java to create a database-driven application</li>
+		  <li>Implement a fully functional database interface that utilized various APIs</li></ul>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Mobile Game Simulator Website:</b></h5>
+          <p><ul><li>Made a mobile game simulator for Another Eden Community</li>
+		  <li>Used Photoshop to mask images recorded from the game</li>
+		  <li>Used HTML, CSS and PHP</li></ul>
+          <hr>
+        </div>
+		<div class="w3-container">
+          <h5 class="w3-opacity"><b>GPS Device with Raspberry Pi:</b></h5>
+          <p><ul><li>Programmed in C to track the location of the Raspberry Pi using hardware Interrupts</li>
+		  <li>Geolocates using ipstack API</li>
+		  <li>Sends location of the Raspberry Pi every chosen interval </li></ul>
+        </div>
+      </div>
+	  
+	 
+
+	  
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find more about me here:</p>
+  <a href="https://twitter.com/joungho21?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @joungho21</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  
+</footer>
+
+</body>
 </html>
